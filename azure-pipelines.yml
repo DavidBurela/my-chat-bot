@@ -23,5 +23,5 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectedServiceName: 'OTA-PRD-280 (c0d6ca53-4569-4045-9b08-b79812da84e3)'
-    WebAppName: 'team20-withdevops'
+    WebAppName: 'chatbot-20'
     Package: '$(System.DefaultWorkingDirectory)/'
